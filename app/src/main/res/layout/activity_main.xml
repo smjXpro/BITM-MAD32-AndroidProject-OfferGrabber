@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/productNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name" />
+    <EditText
+        android:id="@+id/productCategoryET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category" />
+
+    <EditText
+        android:id="@+id/productBrandET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Brand" />
+    <EditText
+        android:id="@+id/productDescriptionET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Description" />
+
+    <EditText
+        android:id="@+id/productPriceET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/productDiscountRateET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Discount Rate"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/productOfferDetailsET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Offer Details" />
+
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveProduct"
+        android:text="Save" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showAllOffers"
+        android:text="All Offers" />
+
+
+
+
+
+
+</LinearLayout>
